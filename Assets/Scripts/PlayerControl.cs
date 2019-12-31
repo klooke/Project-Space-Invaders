@@ -56,6 +56,5 @@ public class PlayerControl : MonoBehaviour
 
                 break;
         }
-        Debug.Log("Input H: " + inputH);
     }
 }
