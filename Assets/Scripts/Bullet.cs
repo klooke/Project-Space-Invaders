@@ -4,21 +4,15 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
+    public float speed = 5f;
+    
     void Update()
     {
-        MoveVertical();
+        Engine.Move(transform, Vector2.up, speed);
     }
 
     private void OnBecameInvisible()
     {
         Destroy(gameObject);
-    }
-
-    void MoveVertical()
-    {
-        float speed = 5f * Time.deltaTime;
-        Vector2 dir = Vector2.up * speed;
-
-        transform.Translate(dir);        
     }
 }

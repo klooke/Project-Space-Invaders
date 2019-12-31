@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class PlayerControl : MonoBehaviour
 {
-    const float DELAY_SHOT_MAX = 0.5f;
-
     public GameObject bulletPrefab;
+    public float speedBullet = 5f, speed = 3.5f, delayShot = 0.5f;
 
     Transform shotExitT;
     float timePerShot;
@@ -18,46 +17,45 @@ public class PlayerControl : MonoBehaviour
 
     void Update()
     {
-        Shot(Input.GetAxis("Fire1"));
-        MoveHorizontal(Input.GetAxis("Horizontal"));
+        InputShot();
+        InputMove();
     }
 
-    void Shot(float _inputFire)
+    void InputShot()
     {
+        float inputFire = Input.GetAxis("Fire1");
+
         timePerShot += Time.deltaTime;
 
-        if (timePerShot >= DELAY_SHOT_MAX)
+        if (timePerShot >= delayShot)
         {
-            if (_inputFire != 0)
+            if (inputFire != 0)
             {
-                GameObject bullet = Instantiate(bulletPrefab);
-                bullet.transform.position = shotExitT.position;
-                bullet.transform.rotation = transform.rotation;
+                Engine.Shot(shotExitT, bulletPrefab, speedBullet);
 
                 timePerShot = 0f;
             }
         }
     }
-    void MoveHorizontal(float _inputH)
+    void InputMove()
     {
-        float speed = 3.5f * Time.deltaTime;
-        Vector2 playerPos = transform.position;
+        float inputH = Input.GetAxis("Horizontal");
 
-        if (_inputH > 0)
+        switch (inputH)
         {
-            if (playerPos.x < 7.5)
-            {
-                Vector2 dir = new Vector2(_inputH, 0f) * speed;
-                transform.Translate(dir);
-            }
+            case Engine.INPUT_RIGHT:
+
+                if (transform.position.x < Engine.LIMIT_RIGHT)
+                    Engine.Move(transform, Vector2.right, speed);
+
+                break;
+            case Engine.INPUT_LEFT:
+
+                if (transform.position.x > Engine.LIMIT_LEFT)
+                    Engine.Move(transform, Vector2.left, speed);
+
+                break;
         }
-        else if (_inputH < 0)
-        {
-            if (playerPos.x > -7.5)
-            {
-                Vector2 dir = new Vector2(_inputH, 0f) * speed;
-                transform.Translate(dir);
-            }
-        }
+        Debug.Log("Input H: " + inputH);
     }
 }
