@@ -5,7 +5,7 @@ using UnityEngine;
 public class Engine
 {
     public const float LIMIT_RIGHT = 7.5f, LIMIT_LEFT = -7.5f;
-    public const float INPUT_RIGHT = 1f, INPUT_LEFT = -1f;
+    public const float INPUT_RIGHT = 0.1f, INPUT_LEFT = -0.1f;
 
     public static bool SeeTarget(Transform _t, string _enemyTag)
     {
@@ -28,9 +28,8 @@ public class Engine
     }
     public static void Shot(Transform _t, GameObject _bullet, float _speed)
     {
-        GameObject bullet = GameObject.Instantiate(_bullet);
-        bullet.transform.position = _t.position;
-        bullet.transform.rotation = _t.rotation;
+        var bullet = GameObject.Instantiate(_bullet, _t.position, _t.rotation);
+        bullet.tag = _t.parent.tag;
         bullet.GetComponent<Bullet>().speed = _speed;
     }
     public static void Move(Transform _t, Vector2 _dir, float _speed)

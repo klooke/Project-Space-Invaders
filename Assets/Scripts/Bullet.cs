@@ -5,13 +5,16 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public float speed = 5f;
-    
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (!collision.CompareTag(tag)) Destroy(gameObject);
+    }
     void Update()
     {
         Engine.Move(transform, Vector2.up, speed);
     }
-
-    private void OnBecameInvisible()
+    void OnBecameInvisible()
     {
         Destroy(gameObject);
     }

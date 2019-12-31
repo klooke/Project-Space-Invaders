@@ -41,20 +41,15 @@ public class PlayerControl : MonoBehaviour
     {
         float inputH = Input.GetAxis("Horizontal");
 
-        switch (inputH)
+        if (inputH > Engine.INPUT_RIGHT)
         {
-            case Engine.INPUT_RIGHT:
-
-                if (transform.position.x < Engine.LIMIT_RIGHT)
-                    Engine.Move(transform, Vector2.right, speed);
-
-                break;
-            case Engine.INPUT_LEFT:
-
-                if (transform.position.x > Engine.LIMIT_LEFT)
-                    Engine.Move(transform, Vector2.left, speed);
-
-                break;
+            if (transform.position.x < Engine.LIMIT_RIGHT)
+                Engine.Move(transform, Vector2.right, speed);
+        }
+        else if (inputH < Engine.INPUT_LEFT)
+        {
+            if (transform.position.x > Engine.LIMIT_LEFT)
+                Engine.Move(transform, Vector2.left, speed);
         }
     }
 }
