@@ -73,6 +73,7 @@ GameObject:
   - component: {fileID: 7619306597904755706}
   - component: {fileID: 7619306597904755707}
   - component: {fileID: 7619306597904755703}
+  - component: {fileID: 2394704147801750691}
   - component: {fileID: 7619306597904755702}
   m_Layer: 0
   m_Name: CubanA
@@ -204,6 +205,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2394704147801750691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7619306597904755708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc895056e33772443859d9a3858a389d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionPrefab: {fileID: 8679013018762539034, guid: 0ee5a4fc489d8f446af89404701953de,
+    type: 3}
+  life: 100
 --- !u!114 &7619306597904755702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -219,6 +235,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 2136870445257563153, guid: 2cc66b9bae1e94543a0559ab6932f5f6,
     type: 3}
   speedBullet: 5
+  damageBullet: 10
   delayShot: 0.75
 --- !u!1 &7619306598178586080
 GameObject:

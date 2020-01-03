@@ -26,11 +26,12 @@ public class Engine
 
         return false;
     }
-    public static void Shot(Transform _t, GameObject _bullet, float _speed)
+    public static void Shot(Transform _t, GameObject _bullet, float _speed, float _damage)
     {
         var bullet = GameObject.Instantiate(_bullet, _t.position, _t.rotation);
         bullet.tag = _t.parent.tag;
         bullet.GetComponent<Bullet>().speed = _speed;
+        bullet.GetComponent<Bullet>().damage = _damage;
     }
     public static void Move(Transform _t, Vector2 _dir, float _speed)
     {
