@@ -7,8 +7,18 @@ public class ShipStats : MonoBehaviour
     public GameObject explosionPrefab;
     public float life = 100f;
 
+    void IsEnemy()
+    {
+        if (CompareTag("Enemy"))
+        {
+            GameObject HUD = GameObject.Find("HUD");
+            HUD.GetComponent<HUD>().points += GetComponent<EnemyIA>().pointsGiveToPlayer;
+        }
+    }
     void DestroyWithExplosion()
     {
+        IsEnemy();
+
         GetComponent<SpriteRenderer>().enabled = false;
 
         GameObject exp = Instantiate(explosionPrefab);

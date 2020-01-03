@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemyIA : MonoBehaviour
 {
     public GameObject bulletPrefab;
+    public int pointsGiveToPlayer = 10;
     public float speedBullet = 5f, damageBullet = 10f, delayShot = 0.75f;
 
     Animator anim;
