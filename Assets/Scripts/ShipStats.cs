@@ -5,6 +5,7 @@ using UnityEngine;
 public class ShipStats : MonoBehaviour
 {
     public GameObject explosionPrefab;
+    public bool godMod;
     public float life = 100f;
 
     void IsEnemy()
@@ -32,6 +33,8 @@ public class ShipStats : MonoBehaviour
     }
     public void TakeDamage(float _value)
     {
+        if (godMod) return;
+
         life -= _value;
 
         if (life <= 0f) DestroyWithExplosion();
