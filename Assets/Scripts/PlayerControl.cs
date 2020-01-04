@@ -6,6 +6,7 @@ public class PlayerControl : MonoBehaviour
 {
     public GameObject bulletPrefab;
     public float speedBullet = 5f, damageBullet = 100f, speed = 3.5f, delayShot = 0.5f;
+    public AudioClip shotClip;
 
     Transform shotExitT;
     float timePerShot;
@@ -31,6 +32,9 @@ public class PlayerControl : MonoBehaviour
         {
             if (inputFire != 0)
             {
+                GetComponent<AudioSource>().clip = shotClip;
+                GetComponent<AudioSource>().Play();
+
                 Engine.Shot(shotExitT, bulletPrefab, speedBullet, damageBullet);
 
                 timePerShot = 0f;

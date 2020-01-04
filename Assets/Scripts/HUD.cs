@@ -12,6 +12,7 @@ public class HUD : MonoBehaviour
     public Text pointsTxt;
     public Image lifeImg;
     public float points;
+    public AudioClip warningClip;
 
     float msgPopupTime;
 
@@ -91,10 +92,20 @@ public class HUD : MonoBehaviour
     void LifeIsLower()
     {
         Animator lifeAnimator = lifeImg.GetComponentInParent<Animator>();
-        
-        if (lifeImg.fillAmount <= 0.3f) lifeAnimator.enabled = true;
+
+        if (lifeImg.fillAmount <= 0.3f)
+        {
+            if (!GetComponent<AudioSource>().isPlaying)
+            {
+                GetComponent<AudioSource>().clip = warningClip;
+                GetComponent<AudioSource>().Play();
+            }
+
+            lifeAnimator.enabled = true;
+        }
         else
         {
+            GetComponent<AudioSource>().Stop();
             if (lifeAnimator.enabled) lifeAnimator.enabled = false;
         }
     }

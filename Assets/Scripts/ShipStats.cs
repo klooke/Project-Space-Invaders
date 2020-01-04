@@ -7,6 +7,7 @@ public class ShipStats : MonoBehaviour
     public GameObject explosionPrefab;
     public bool godMod;
     public float life = 100f;
+    public AudioClip expClip;
 
     void IsEnemy()
     {
@@ -18,18 +19,22 @@ public class ShipStats : MonoBehaviour
     }
     void DestroyWithExplosion()
     {
+        GetComponent<AudioSource>().clip = expClip;
+        GetComponent<AudioSource>().Play();
+
         IsEnemy();
 
         GetComponent<SpriteRenderer>().enabled = false;
+        GetComponent<CapsuleCollider2D>().enabled = false;
 
         GameObject exp = Instantiate(explosionPrefab);
         exp.transform.position = transform.position;
         exp.transform.rotation = transform.rotation;
 
         float timeEndExp = exp.GetComponent<Animator>().GetCurrentAnimatorClipInfo(0).Length;
-
+        
         Destroy(exp, timeEndExp);
-        Destroy(gameObject);
+        Destroy(gameObject, timeEndExp);
     }
     public void TakeDamage(float _value)
     {
