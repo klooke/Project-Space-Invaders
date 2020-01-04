@@ -360,6 +360,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubanA (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
 --- !u!4 &122486471 stripped
@@ -446,6 +451,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CubanA (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
@@ -634,6 +644,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubanA (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
 --- !u!4 &316272027 stripped
@@ -789,6 +804,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubanA (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
 --- !u!1001 &374105079
@@ -857,6 +877,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CubanA (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
@@ -933,6 +958,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubanA (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
 --- !u!1001 &422105283
@@ -1002,6 +1032,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubanA (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
 --- !u!1001 &449514850
@@ -1070,6 +1105,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CubanA (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
@@ -1151,6 +1191,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CubanA (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
@@ -1309,6 +1354,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CubanA (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
@@ -1550,6 +1600,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubanA (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
 --- !u!1001 &587056719
@@ -1618,6 +1673,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CubanA (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
@@ -1694,6 +1754,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubanA (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
 --- !u!4 &634434119 stripped
@@ -1769,6 +1834,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubanA (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
 --- !u!1001 &758150464
@@ -1837,6 +1907,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CubanA (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
@@ -2042,6 +2117,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubanA (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
 --- !u!1001 &797745048
@@ -2110,6 +2190,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CubanA (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
@@ -2180,6 +2265,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubanA (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
 --- !u!1001 &799869745
@@ -2248,6 +2338,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CubanA (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
@@ -2453,6 +2548,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubanA (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
 --- !u!4 &819574653 stripped
@@ -2533,6 +2633,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CubanA (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
@@ -2698,6 +2803,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubanA (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
 --- !u!4 &952894077 stripped
@@ -2772,6 +2882,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CubanA (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
@@ -2848,6 +2963,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubanA (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
 --- !u!1001 &999423700
@@ -2916,6 +3036,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CubanA (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
@@ -2986,6 +3111,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubanA (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
 --- !u!1001 &1008559087
@@ -3055,6 +3185,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubanA (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
 --- !u!1001 &1059983270
@@ -3123,6 +3258,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CubanA (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
@@ -3276,6 +3416,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubanA (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
 --- !u!4 &1146292279 stripped
@@ -3351,6 +3496,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubanA (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
 --- !u!1001 &1153440718
@@ -3420,6 +3570,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubanA (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
 --- !u!1001 &1180679923
@@ -3488,6 +3643,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CubanA (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
@@ -3569,6 +3729,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CubanA (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
@@ -3715,6 +3880,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CubanA (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
@@ -4005,6 +4175,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubanA (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
 --- !u!1001 &1285739113
@@ -4073,6 +4248,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CubanA (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
@@ -4143,6 +4323,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubanA (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
 --- !u!1001 &1308914322
@@ -4211,6 +4396,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CubanA (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
@@ -4293,6 +4483,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubanA (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
 --- !u!1001 &1464420030
@@ -4361,6 +4556,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CubanA (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
@@ -4467,6 +4667,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubanA (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
 --- !u!1001 &1624028024
@@ -4535,6 +4740,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CubanA (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
@@ -4807,6 +5017,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubanA (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
 --- !u!1001 &1707240657
@@ -4876,6 +5091,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubanA (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
 --- !u!1001 &1716355316
@@ -4944,6 +5164,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CubanA (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
@@ -5143,6 +5368,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CubanA (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
@@ -5546,6 +5776,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubanA (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
 --- !u!4 &1953630384 stripped
@@ -5620,6 +5855,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CubanA (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
@@ -5766,6 +6006,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CubanA (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
@@ -6078,6 +6323,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubanA (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
 --- !u!4 &2097229379 stripped
@@ -6153,6 +6403,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubanA (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
 --- !u!1001 &2118078748
@@ -6221,6 +6476,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CubanA (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c56cd8f78e1074286e9002e7d707a6, type: 3}
