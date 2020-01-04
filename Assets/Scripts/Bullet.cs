@@ -10,15 +10,8 @@ public class Bullet : MonoBehaviour
     {
         if (!collision.CompareTag(tag))
         {
-            if (collision.CompareTag("Finish"))
-            {
-                Destroy(gameObject);
-            }
-            else if (collision.gameObject.layer != 8)
-            {
-                collision.GetComponent<ShipStats>().TakeDamage(damage);
-                Destroy(gameObject);
-            }
+            collision.GetComponent<ShipStats>().TakeDamage(damage);
+            Destroy(gameObject);
         }
     }
     void Update()
