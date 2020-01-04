@@ -4,11 +4,15 @@ using UnityEngine;
 
 public class EnemyIA : MonoBehaviour
 {
+    public enum TypeShot { Default, Laser};
+        
     public GameObject bulletPrefab;
     public int pointsGiveToPlayer = 10;
+    public TypeShot typeBullet;
     public float speedBullet = 5f, damageBullet = 10f, delayShot = 0.75f;
     public AudioClip shotClip;
 
+    bool isCounting;
     Animator anim;
     Transform shotExitT;
     float timePerShot;
@@ -17,6 +21,7 @@ public class EnemyIA : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         shotExitT = transform.Find("ShotExit");
+        StartCount();
     }
 
     void Update()
@@ -24,22 +29,58 @@ public class EnemyIA : MonoBehaviour
         Attack();
     }
 
+    void StopCount()
+    {
+        isCounting = false;
+    }
+    void CountTime()
+    {
+        if (isCounting)
+        {
+            timePerShot += Time.deltaTime;
+        }
+    }
     void Attack()
     {
-        timePerShot += Time.deltaTime;
+        CountTime();
 
-        if (Engine.SeeTarget(transform, "Player"))
+        switch (typeBullet)
         {
-            if (timePerShot >= delayShot)
-            {
-                anim.SetTrigger("Shot");
-                GetComponent<AudioSource>().clip = shotClip;
-                GetComponent<AudioSource>().Play();
+            default:
+                if (Engine.SeeTarget(transform, "Player"))
+                {
+                    if (timePerShot >= delayShot)
+                    {
+                        anim.SetTrigger("Shot");
+                        GetComponent<AudioSource>().clip = shotClip;
+                        GetComponent<AudioSource>().Play();
 
-                Engine.Shot(shotExitT, bulletPrefab, speedBullet, damageBullet);
+                        Engine.Shot(shotExitT, bulletPrefab, speedBullet, damageBullet);
 
-                timePerShot = 0f;
-            }
+                        timePerShot = 0f;
+                    }
+                }
+                break;
+            case TypeShot.Laser:
+                
+                if (timePerShot >= delayShot)
+                {
+                    anim.SetTrigger("Shot");
+                    GetComponent<AudioSource>().clip = shotClip;
+                    GetComponent<AudioSource>().Play();
+
+                    Engine.Shot(shotExitT, bulletPrefab, speedBullet, damageBullet);
+
+                    timePerShot = 0f;
+
+                    StopCount();
+                }
+                break;
         }
+    }
+    
+    public void StartCount()
+    {
+        isCounting = true;
     }
 }
