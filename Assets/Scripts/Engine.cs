@@ -30,8 +30,17 @@ public class Engine
     {
         var bullet = GameObject.Instantiate(_bullet, _t.position, _t.rotation);
         bullet.tag = _t.parent.tag;
-        bullet.GetComponent<Bullet>().speed = _speed;
-        bullet.GetComponent<Bullet>().damage = _damage;
+        try
+        {
+            bullet.GetComponent<Bullet>().speed = _speed;
+            bullet.GetComponent<Bullet>().damage = _damage;
+        }
+        catch
+        {
+            bullet.transform.SetParent(_t);
+            bullet.GetComponent<Laser>().speed = _speed;
+            bullet.GetComponent<Laser>().damage = _damage;
+        }
     }
     public static void Move(Transform _t, Vector2 _dir, float _speed)
     {
@@ -39,5 +48,12 @@ public class Engine
         Vector2 dir = _dir * speed;
 
         _t.Translate(dir);
+    }
+    public static void Scale(Transform _t, Vector2 _dir, float _speed)
+    {
+        float speed = _speed * Time.deltaTime;
+        Vector3 dir = _dir * speed;
+
+        _t.localScale += dir;
     }
 }

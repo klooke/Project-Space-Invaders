@@ -27,6 +27,13 @@ public class ShipStats : MonoBehaviour
         GetComponent<SpriteRenderer>().enabled = false;
         GetComponent<CapsuleCollider2D>().enabled = false;
 
+        try
+        {
+            foreach (SpriteRenderer sr in GetComponentsInChildren<SpriteRenderer>()) sr.enabled = false;
+            foreach (CapsuleCollider2D cc2d in GetComponentsInChildren<CapsuleCollider2D>()) cc2d.enabled = false;
+        }
+        catch { }
+
         GameObject exp = Instantiate(explosionPrefab);
         exp.transform.position = transform.position;
         exp.transform.rotation = transform.rotation;
