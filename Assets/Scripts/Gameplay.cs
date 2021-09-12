@@ -5,8 +5,8 @@ using UnityEngine;
 public class Gameplay : MonoBehaviour
 {
     [Range(1, 2)] public int level = 2;
-    public GameObject shipB;
-    [Range(1,10)] public int maxShipB = 10;
+    public GameObject shipB, shipC;
+    [Range(1,10)] public int maxShipB = 10, maxShipC = 10;
         
     void Start()
     {
@@ -35,16 +35,43 @@ public class Gameplay : MonoBehaviour
                     else invert = true;
 
                     StartCoroutine(InvokeShip(shipB, i, invert));
-                    Debug.Log("Instanciando nave " + i);
-                    if (i == maxShipB) Debug.Log("Ultima nave");
+                }
+                break;
+            case 3:
+                for (int i = 0; i < maxShipB; i++)
+                {
+                    bool invert;
+
+                    if (i % 2 == 0) invert = false;
+                    else invert = true;
+
+                    StartCoroutine(InvokeShip(shipB, i, invert));
+                }
+
+                for (int i = 0; i < maxShipC; i++)
+                {
+                    StartCoroutine(InvokeShip(shipC, i));
                 }
                 break;
         }
     }
-    IEnumerator InvokeShip(GameObject _obj, float _time, bool _invert)
+
+    IEnumerator InvokeShip(GameObject _obj, float _time)
     {
         //Debug.Log("O inimigo será instanciando em: " + _time + " segundos.");
+        yield return new WaitForSeconds(_time);
 
+        try
+        {
+            GameObject tmp = Instantiate(_obj, GameObject.Find("Battlefield").transform);
+        }
+        catch
+        {
+            Debug.LogError("Erro ao instanciar o gameobject!");
+        }
+    }
+    IEnumerator InvokeShip(GameObject _obj, float _time, bool _invert)
+    {
         yield return new WaitForSeconds(_time);
 
         try
