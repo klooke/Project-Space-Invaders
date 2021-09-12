@@ -358,7 +358,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (47)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -450,7 +450,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (29)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -642,7 +642,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (8)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -802,7 +802,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (30)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -876,7 +876,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (14)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -956,7 +956,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (5)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -1030,7 +1030,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (41)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -1104,7 +1104,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (48)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -1190,7 +1190,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (31)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -1353,7 +1353,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (3)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -1598,7 +1598,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (37)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -1672,7 +1672,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (45)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -1752,7 +1752,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (33)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -1832,7 +1832,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (23)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -1906,7 +1906,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (26)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -2115,7 +2115,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (20)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -2189,7 +2189,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (22)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -2263,7 +2263,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (50)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -2337,7 +2337,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (17)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -2546,7 +2546,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (32)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -2632,7 +2632,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (9)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -2801,7 +2801,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (49)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -2881,7 +2881,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (21)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -2961,7 +2961,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (27)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -3035,7 +3035,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (35)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -3109,7 +3109,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (43)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -3183,7 +3183,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (7)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -3223,9 +3223,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 288e3f5ee9e1c7c499329d945cdc01c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 2
+  level: 3
   shipB: {fileID: 7202698597846493493, guid: ae9594d618babb84f82c08ecae11f93b, type: 3}
+  shipC: {fileID: 7446231862569807086, guid: 20dfbfb82854ee146b78e3bf0b4ffa0a, type: 3}
   maxShipB: 10
+  maxShipC: 10
 --- !u!4 &1029217755
 Transform:
   m_ObjectHideFlags: 0
@@ -3357,7 +3359,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (11)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -3514,7 +3516,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (46)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -3594,7 +3596,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (2)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -3668,7 +3670,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (24)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -3742,7 +3744,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (19)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -3828,7 +3830,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (40)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -3979,7 +3981,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (28)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -4273,7 +4275,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (13)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -4347,7 +4349,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (16)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -4421,7 +4423,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (12)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -4495,7 +4497,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (42)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -4581,7 +4583,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (18)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -4655,7 +4657,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (1)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -4765,7 +4767,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (4)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -4839,7 +4841,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (36)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -5115,7 +5117,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (25)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -5189,7 +5191,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (6)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -5263,7 +5265,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (34)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -5467,7 +5469,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (15)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -5874,7 +5876,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (39)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -5954,7 +5956,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (44)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -6105,7 +6107,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (38)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -6421,7 +6423,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (52)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -6501,7 +6503,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (10)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
@@ -6575,7 +6577,7 @@ PrefabInstance:
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
       propertyPath: m_Name
-      value: CubanA (51)
+      value: CubanA(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 7619306597904755708, guid: 56c56cd8f78e1074286e9002e7d707a6,
         type: 3}
