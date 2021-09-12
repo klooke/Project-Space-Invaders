@@ -17,8 +17,11 @@ public class Gameplay : MonoBehaviour
     {
         if (collision.gameObject.layer != 8)
         {
-            StartCoroutine(InvokeShip(shipB, maxShipB + 1, collision.GetComponent<Animator>().GetBool("Invert")));
-            Destroy(collision.gameObject);
+            if (collision.name == "CubanB(Clone)")
+            {
+                StartCoroutine(InvokeShip(shipB, maxShipB + 1, collision.GetComponent<Animator>().GetBool("Invert")));
+                Destroy(collision.gameObject);
+            }
         }
     }
 

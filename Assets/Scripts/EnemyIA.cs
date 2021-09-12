@@ -51,7 +51,7 @@ public class EnemyIA : MonoBehaviour
                 {
                     if (timePerShot >= delayShot)
                     {
-                        anim.SetTrigger("Shot");
+                        if (transform.name == "CubanA(Clone)") anim.SetTrigger("Shot");
                         GetComponent<AudioSource>().clip = shotClip;
                         GetComponent<AudioSource>().Play();
 

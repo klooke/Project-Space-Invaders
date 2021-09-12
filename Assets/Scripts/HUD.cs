@@ -148,7 +148,6 @@ public class HUD : MonoBehaviour
     }
     public void CloseGame()
     {
-        if (Application.isEditor) UnityEditor.EditorApplication.isPlaying = false;
-        else Application.Quit();
+        Application.Quit();
     }
 }
