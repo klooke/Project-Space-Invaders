@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Gameplay : MonoBehaviour
 {
-    [Range(1, 2)] public int level = 2;
+    [Range(1, 3)] public int level = 2;
     public GameObject shipB, shipC;
     [Range(1,10)] public int maxShipB = 10, maxShipC = 10;
         
@@ -58,7 +58,6 @@ public class Gameplay : MonoBehaviour
 
     IEnumerator InvokeShip(GameObject _obj, float _time)
     {
-        //Debug.Log("O inimigo será instanciando em: " + _time + " segundos.");
         yield return new WaitForSeconds(_time);
 
         try
